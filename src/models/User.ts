@@ -24,7 +24,7 @@ class Users {
   created_at: Date;
 
   @UpdateDateColumn()
-  updated_at: DataCue;
+  updated_at: Date;
 }
 
 export default Users;
